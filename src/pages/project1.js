@@ -43,7 +43,7 @@ function Project1() {
                 technologies={[ "React Native", "Firebase", "React Navigation" ]}
               />
             <div>
-              <h3 className="text-md font-bold">
+              <h3 className="text-md font-bold underline">
                 Code
               </h3>
               <div className="pt-5">

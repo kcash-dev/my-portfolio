@@ -18,14 +18,13 @@ function Project2() {
           </div>
           <div className="pb-5">
             <text>
-              Pixtagram is a project I built to enhance my knowledge of all things React Native. Instagram is one of the
-              most popular apps built with React Native, and combines multiple technologies to create a beautiful UI that is also
-              very functional. Pixtagram allows users to create a profile with an email and password, and allows users to select photos
-              stored locally to upload, along with a caption.
+              This music player project was something I thought of while I was deciding between using iTunes or YouTube Music. I loved features from both and thought,
+              "Why not combine them?". So, I set out to learn how they worked. Like other projects, many of the technologies were new to me and this presented a challenge
+              as I learned to recreate the functionality that exists with the top music players. This app allows users to add music stored locally, and play it just like on their
+              favorite music player app.
               <br />
               <br />
-              In addition, users can view the photos on an Instagram-like feed, then like or comment on the photo. As well, users can
-              view other users profiles and their photos.
+              This project incorporated a lot of animations and menus. The music plays across the app and can be skipped or users can return to the previous song.
             </text>
           </div>
           <div className="px-5 flex flex-row justify-evenly">
@@ -40,10 +39,10 @@ function Project2() {
               </div>
             </div>
               <ProjectTechnologies 
-                technologies={[ "React Native", "Firebase", "React Navigation" ]}
+                technologies={[ "React Native", "Firebase", "React Navigation", "Reanimated", "React Redux" ]}
               />
             <div>
-              <h3 className="text-md font-bold">
+              <h3 className="text-md font-bold underline">
                 Code
               </h3>
               <div className="pt-5">
@@ -66,13 +65,14 @@ function Project2() {
             </h2>
             <div className="pt-5">
               <text>
-                I built this project because I knew it would present a challenge unlike one I had taken on before. And I was right.
-                With Instagram having such a beautiful UI, plus a lot of features, I knew it would be difficult to replicate both the
-                front-end and back-end, while still having it be functional and fast.
+                This was another project I began knowing that it would take hours upon hours to learn the proper technologies and how to share
+                information across the app. But, I was eager to learn these concepts because I knew it would be beneficial for any future projects.
+                I loved the animations that I found while using iTunes and YouTube Music (especially the menu sliding up and down for the current song),
+                so I aimed to recreate these the best I could.
                 <br />
                 <br />
-                Pixtagram challenged me to learn technologies I wasn't as familiar with, as well as find solutions to complex problems
-                in terms of making the components reusable and moving information freely across the app.
+                This music player app took me far beyond the knowledge I had at the time, and showed me a side of React Native that I had yet to learn. The app
+                had to be smooth, beautiful, and fast. This would challenge me more than I realized.
               </text>
             </div>
           </div>
@@ -82,14 +82,13 @@ function Project2() {
             </h2>
             <div className="pt-5 pb-5 text-white">
               <text>
-                Most importantly, I had never taken on a project this complex. The multitude of screens, components, and information was a challenge
-                from the beginning. I had used React Navigation in past projects, but having to navigate to separate nested navigators, as well as sending
-                information along with them took some time to adjust to.
+                I had no familiarity with animations prior to this project. I didn't even know where to begin in this area. As I researched, I discovered the Reanimated
+                library and found it very capable for what I was trying to do. I had to spend a lot of time familiarizing myself with the documentation, and it took a lot of experimentation
+                as well.
                 <br />
                 <br />
-                Same as React Navigation, I had some familiarity with Firebase (Firestore and Auth). However, I hadn't had experience with the level of detail to
-                sending and retrieving information like I had to use in this project. Creating collections and documents that worked together, were accessible, and would
-                easily display user information took a lot of research and planning, much more than I had anticipated when I started the project.
+                In addition, React Redux was still a relatively new concept to me. I had used it in previous projects, but I didn't feel comfortable using it. And I saw this as an excellent opportunity
+                to force myself out of my comfort zone to expand my knowledge.
               </text>
             </div>
           </div>
@@ -99,13 +98,12 @@ function Project2() {
             </h2>
             <div className="pt-5">
               <text>
-                The time spent in Firebase documentation and StackOverflow is more than I care to admit. It took hours upon hours of reading, testing, and adjusting
-                before I finally arrived at a solution that worked. In addition to the Firebase knowledge I gained, it taught me how key it is to have a solid plan to
-                follow before diving into the code.
+                By the time I had finished, I felt comfortable with the Reanimated library. I was creating my own animations and extending beyond what was listed in the documentation.
+                From this, I have been able to incorporate this into other projects to give users feedback when using the apps I create.
                 <br />
                 <br />
-                A plan lessens the time spent figuring out problems, and provides a direct path to cutting down on needless experimentation. This is something I will carry
-                into future projects.
+                I was still slightly uncomfortable using React Redux and I came away from this project knowing I needed to invest more time in it. For this, I learned that I need more preparation
+                before utilizing this technology, and I need to study the documentation more to deepen my understanding of how React Redux works.
               </text>
             </div>
           </div>
