@@ -4,17 +4,17 @@ export default function About() {
   return (
     <section id="about">
         <div className="px-10 py-5">
-            <h1 className="text-6xl font-bold py-1">
-                Hey there, I'm <text className="text-^xl font-bold text-green-400">Kyle Cash</text>.
+            <h1 className="lg:text-6xl md:text-5xl sm:text-4xl font-bold py-1">
+                Hey there, I'm <text className="lg:text-6xl md:text-5xl sm:text-4xl font-bold text-green-400">Kyle Cash</text>.
             </h1>
-            <h2 className="text-5xl font-bold py-1">
-                Front-End <text className="text-5xl font-bold text-green-400">Developer</text>
+            <h2 className="lg:text-5xl md:text-4xl sm:text-3xl font-bold py-1">
+                Front-End <text className="lg:text-5xl md:text-4xl sm:text-3xl font-bold text-green-400">Developer</text>
             </h2>
-            <h2 className="text-5xl font-bold py-1">
-                Mobile <text className="text-5xl font-bold text-green-400">Specialist</text>
+            <h2 className="lg:text-5xl md:text-4xl sm:text-3xl font-bold py-1">
+                Mobile <text className="lg:text-5xl md:text-4xl sm:text-3xl font-bold text-green-400">Specialist</text>
             </h2>
-            <h2 className="text-5xl font-bold py-1">
-                Self-<text className="text-5xl font-bold text-green-400">Taught</text>
+            <h2 className="lg:text-5xl md:text-4xl sm:text-3xl font-bold py-1">
+                Self-<text className="lg:text-5xl md:text-4xl sm:text-3xl font-bold text-green-400">Taught</text>
             </h2>
             <div className="w-11/12 py-10 flex w-full align-center justify-center">
                 <img 
