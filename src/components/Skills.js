@@ -19,7 +19,7 @@ export default function Skills() {
         </div>
         <div className="flex flex-wrap align-center justify-center">
           { skills.map((skill) => (
-            <div key={ skill } className="bg-green-400 p-5 m-2 rounded w-3/5 hover:scale-105 hover:bg-white hover:text-green-400">
+            <div key={ skill } className="bg-green-400 p-5 m-2 rounded lg:w-3/5 md:w-4/5 sm:w-full hover:scale-105 hover:bg-white hover:text-green-400">
               <div className="flex flex-row align-center">
                 <text className="text-2xl px-5">{ skill.icon }</text>
                 <text className="font-medium">{ skill.name }</text>

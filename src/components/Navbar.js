@@ -19,10 +19,10 @@ export default function Navbar() {
         <Outlet />
       </div>
       <div>
-        <a href="#about" className="text-white px-2 font-bold text-lg">About</a>
-        <a href="#skills" className="text-white px-2 font-bold text-lg">Skills</a>
-        <a href="#projects" className="text-white px-2 font-bold text-lg">Projects</a>
-        <a href="#contact" className="text-white px-2 font-bold text-lg">Contact</a>
+        <a href="#about" className="text-white px-2 font-bold lg:text-lg md:text-md sm:text-sm">About</a>
+        <a href="#skills" className="text-white px-2 font-bold lg:text-lg md:text-md sm:text-sm">Skills</a>
+        <a href="#projects" className="text-white px-2 font-bold lg:text-lg md:text-md sm:text-sm">Projects</a>
+        <a href="#contact" className="text-white px-2 font-bold lg:text-lg md:text-md sm:text-sm">Contact</a>
       </div>
     </div>
   )
