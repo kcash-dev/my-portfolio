@@ -50,7 +50,7 @@ function Project4() {
             </div>
           </div>
           <hr className="mb-5 mt-5" />
-          <div className="px-5 pb-5 pt-5">
+          <div className="lg:p-5 md:p-3 sm:p-1">
             <img 
               src='https://i.imgur.com/G6qUntM.jpg'
               alt="UltraCook Samples"
@@ -58,7 +58,7 @@ function Project4() {
             />
           </div>
           <hr className="mb-5 mt-5" />
-          <div className="pt-5 pb-5">
+          <div className="py-5">
             <h2 className="text-xl font-bold underline">
               Project Goal
             </h2>
