@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div className="bg-black w-full py-5 flex flex-row items-center justify-between">
       <div className="mx-3">
-        <nav className="p-5">
+        <nav className="lg:p-5 md:p-3 sm:p-1">
           <Link className="underline" to="/">
             <img 
               src='https://i.imgur.com/wAkyxqH.jpg'

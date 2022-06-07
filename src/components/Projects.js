@@ -30,7 +30,7 @@ export default function Projects() {
         <div className="flex flex-wrap w-full lg:px-5 md:px-3 sm:px-1 my-10">
           { projects.map((project) => (
             <div key={project} className="bg-black lg:w-5/12 sm:w-full md:w-full mx-auto my-5 lg:p-5 md:p-2 sm:p-1 text-center rounded hover:scale-105">
-              <text className="text-white text-lg font-bold lg:my-0 md:my-1 sm:my-2">{ project.name }</text>
+              <text className="text-white text-lg font-bold lg:my-0 md:my-1 sm:my-2 lg:px-0 md:px-1 sm:px-2">{ project.name }</text>
               <br />
               <img
                 src={ project.picture }
