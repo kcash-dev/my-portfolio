@@ -24,7 +24,7 @@ export default function About() {
                 />
             </div>
             <div className="px-5 flex flex-row">
-                <div className="px-5">
+                <div className="px-5 md:px-1 sm:px-1">
                     <text>
                         I'm a 31-year-old self-taught developer from the USA. I am a front-end developer, 
                         but I specialize in creating mobile applications that are smooth and responsive.
@@ -34,7 +34,7 @@ export default function About() {
                         and find a solution that meets the projects needs.
                     </text>
                 </div>
-                <div className="px-5">
+                <div className="px-5 md:px-1 sm:px-1">
                     <text>
                         These challenges have helped shape me into the developer I am today;
                         one that is relentless in solving the challenges in front of me, but a developer that is teachable and a quick-learner.
