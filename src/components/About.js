@@ -23,8 +23,8 @@ export default function About() {
                     className="w-8/12 rounded"
                 />
             </div>
-            <div className="px-5 flex flex-row">
-                <div className="px-5 md:px-1 sm:px-1">
+            <div className="lg:px-5 md:px-1 sm:px-1 flex flex-row ">
+                <div className="lg:px-5 md:px-1 sm:px-1">
                     <text>
                         I'm a 31-year-old self-taught developer from the USA. I am a front-end developer, 
                         but I specialize in creating mobile applications that are smooth and responsive.
