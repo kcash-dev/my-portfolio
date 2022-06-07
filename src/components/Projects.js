@@ -29,7 +29,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap w-full px-5 my-10">
           { projects.map((project) => (
-            <div key={project} className="bg-black w-5/12 mx-auto my-5 p-5 text-center rounded hover:scale-105">
+            <div key={project} className="bg-black w-5/12 sm:w-full md:w-full mx-auto my-5 p-5 text-center rounded hover:scale-105">
               <text className="text-white text-lg font-bold">{ project.name }</text>
               <br />
               <img
