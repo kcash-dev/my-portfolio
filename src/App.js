@@ -1,8 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-
-//React Router
-import { Link } from 'react-router-dom';
 
 //Components
 import About from './components/About';
