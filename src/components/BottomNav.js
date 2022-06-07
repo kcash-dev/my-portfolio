@@ -20,7 +20,7 @@ export default function BottomNav() {
         </nav>
         <Outlet />
       </div>
-      <div className="flex flex-row justify-evenly w-2/12">
+      <div className="flex flex-row justify-evenly w-2/12 lg:px-0 md:px-2 sm:px-4">
         <a href="https://github.com/kcash-dev" target="_blank" rel="noreferrer">
           <text className="font-bold text-white text-3xl"><FaGithub /></text>
         </a>
