@@ -1,4 +1,4 @@
-import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt  } from "react-icons/fa";
+import { FaReact, FaJsSquare, FaHtml5  } from "react-icons/fa";
 import { SiRedux, SiFirebase, SiTailwindcss } from "react-icons/si";
 
 export const projects = [
