@@ -12,7 +12,7 @@ function OtherProjects() {
         </h3>
         <div className="flex flex-row flex-wrap">
             { projects.map((project) => (
-                <div key={ project.name } className="w-5/12 bg-gray-200 m-1 rounded">
+                <div key={ project.name } className="lg:w-5/12 md:w-full sm:w-full bg-gray-200 m-1 rounded">
                     <h4 className="text-md font-bold p-5">
                         { project.name }
                     </h4>

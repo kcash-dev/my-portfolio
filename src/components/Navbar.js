@@ -12,7 +12,7 @@ export default function Navbar() {
             <img 
               src='https://i.imgur.com/wAkyxqH.jpg'
               alt="K Cash Dev Logo"
-              className="lg:w-3/12 md:w-5/12 sm:w-7/12"
+              className="lg:w-3/12 md:w-5/12 sm:w-9/12"
             />
           </Link>
         </nav>
